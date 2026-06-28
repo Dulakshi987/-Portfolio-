@@ -236,8 +236,8 @@ function Home() {
 }
 
 const ABOUT_POINTS = [
-  {  title: "Education", desc: <>BSc (Hons) Software Engineering — ICBT Campus, Colombo (Cardiff Metropolitan University, UK). Fully graduated May 2026 with <strong style={{ color: "white" }}>Second Upper (2.1) Class Honours Division.</strong></> },
-  {  title: "Internship Experience", desc: "Over 1 year of internship experience across 2 software companies  KeenRabbits Pvt Ltd (Gampaha) and IT Signature (Colombo) — working on real-world software projects." },
+  {  title: "Education", desc: <>BSc (Hons) Software Engineering at ICBT Campus, Colombo (Cardiff Metropolitan University, UK). Graduated May 2026 with <strong style={{ color: "white" }}>Second Class (2.1) Upper Honours Division.</strong></> },
+  {  title: "Internship Experience", desc: "Over 1 year of internship experience across 2 software companies  KeenRabbits Pvt Ltd (Gampaha) and IT Signature (Colombo) & working on real-world software projects." },
   { title: "Real-Time Projects", desc: "Experienced with real-time projects across web, mobile and ML domains gained through internship periods and academic life at University." },
   {  title: "Passion & Values", desc: "Passionate about clean code, scalable architectures and great UX. Committed to continuous learning and adapting to emerging technologies." },
 ];
@@ -455,6 +455,9 @@ const BLOGS = [
   { title: "Continuous Innovation in Software Development — CI/CD Pipelines", url: "https://medium.com/@dulakshikeshani288/continuous-innovation-in-software-development-of-ci-cd-pipelines-437828818b24", desc: "Exploring how CI/CD pipelines drive continuous delivery, reduce deployment risks and accelerate software development innovation in modern teams.", tag: "DevOps" },
   { title: "Software Design Patterns", url: "https://medium.com/@dulakshikeshani288/software-design-patterns-19cec1b10233", desc: "A deep dive into essential software design patterns — Creational, Structural and Behavioural — with real-world examples and when to apply each.", tag: "Engineering" },
   { title: "How AI Coding Assistants Are Changing Software Development Workflows", url: "https://medium.com/@dulakshikeshani288/how-ai-coding-assistants-are-changing-software-development-workflows-b7f673406749", desc: "An insightful look at how AI-powered coding assistants are transforming the way developers write, review and ship code — and what it means for the future of software engineering.", tag: "AI / Tech"},
+  { title: "WHAT IS EXPLORATORY DATA ANALYSIS(EDA) IN MACHINE LEARNING ?", url: "https://medium.com/@dulakshikeshani288/what-is-exploratory-data-analysis-eda-in-machine-learning-0b722b753045", desc: "Exploratory Data Analysis (EDA) is the process of investigating and summarizing the main characteristics of our dataset. To understand the data deeply its patterns, problems, surprises, and stories using numbers and (mostly) visuals.", tag: "AI / Tech"},
+  { title: "Why Automation Testing is Essential in Modern Software Development ?", url: "https://medium.com/p/0795e89c3cbf?postPublishedType=initial", desc: "Software applications are becoming more complex, and users expect reliable, bug-free experiences. As development teams release updates more frequently, manual testing alone is no longer enough to ensure software quality. This is why automation testing has become an essential practice in modern software development.", tag: "Quality Testing"},
+
 ];
 
 function Blogs() {
